@@ -1,0 +1,19 @@
+footer {
+  width: 100vw;
+  height: 100px;
+  padding: 3rem;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-right: 1rem;
+}
