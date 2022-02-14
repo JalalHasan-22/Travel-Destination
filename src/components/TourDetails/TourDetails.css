@@ -1,0 +1,18 @@
+.detailView {
+  padding: 2rem;
+  text-align: center;
+}
+
+.detailView img {
+  max-width: 50%;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+.detailView .btn-show-more {
+  background-color: #cb98ed;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+}

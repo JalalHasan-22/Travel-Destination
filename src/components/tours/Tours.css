@@ -1,7 +1,11 @@
 .card {
-  max-width: 1440px;
-  padding: 5rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
 }
 .card img {
-  max-width: 50%;
+  max-width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  margin-top: 1rem;
 }
