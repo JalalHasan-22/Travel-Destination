@@ -5,13 +5,13 @@ function Footer() {
       <h3>Jalal Sahoory &copy; 2022</h3>
       <ul>
         <li>
-          <a>facebook</a>
+          <a href="#">facebook</a>
         </li>
         <li>
-          <a>Twitter</a>
+          <a href="#">Twitter</a>
         </li>
         <li>
-          <a>Instagram</a>
+          <a href="#">Instagram</a>
         </li>
       </ul>
     </footer>

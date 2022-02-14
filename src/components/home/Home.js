@@ -1,20 +1,11 @@
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 import Tours from "../tours/Tours";
+import "./Home.css";
 
 function Home({ jsonData }) {
   return (
-    <>
-      <Header />
-      {
-        jsonData.map((entry) => (
-          <Tours key={entry.id} name={entry.name} imgSrc={entry.image} />
-        ))
-
-        /* <Tours data={jsonData} /> */
-      }
-      <Footer />
-    </>
+    <div className="home">
+      <Tours jsonData={jsonData} />
+    </div>
   );
 }
 
