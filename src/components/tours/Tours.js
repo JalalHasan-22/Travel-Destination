@@ -3,10 +3,8 @@ import Tour from "./tour/Tour";
 import { Link } from "react-router-dom";
 
 function Tours({ jsonData }) {
-  const handleClick = () => {};
-
   return jsonData.map((city) => (
-    <Link key={city.id} to={`city/${city.id}`} onClick={handleClick}>
+    <Link key={city.id} to={`city/${city.id}`}>
       <Tour data={city} />
     </Link>
   ));
